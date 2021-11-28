@@ -8,10 +8,11 @@
 → 3-3) enough up to batch_size and learning rate
 
 4. When the result about model's prediction is always same
-→ 4-1) Input layer's activation delete
-→ 4-2) Layer count down
-→ 4-3) batch size down, epoch up (don't too much)
-→ 4-4) optimizer change to another
+→ 4-1) Increase the learning rate
+→ 4-2) Input layer's activation delete
+→ 4-3) Layer count down
+→ 4-4) batch size down, epoch up (don't too much)
+→ 4-5) optimizer change to another
 
 5. If the loss function fluctuates a lot
 → 5-1) Check and change about Dropout %
@@ -22,4 +23,5 @@
 → 6-2) Check and chage about last Dense layer's activation function
 
 7. When loss value repeat up and down
-→ 7-1) Dropout layer delete or drop rate down
+→ 7-1) Dropout layer's drop rate down
+→ 7-1) Dropout layer delete
